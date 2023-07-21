@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		F81CDA0B2A6A70AB007A7BA9 /* acobTimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F81CDA0A2A6A70AB007A7BA9 /* acobTimerView.h */; };
 		F81CDA0D2A6A70AB007A7BA9 /* acobTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F81CDA0C2A6A70AB007A7BA9 /* acobTimerView.m */; };
+		F81CDA222A6A7ED4007A7BA9 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = F81CDA1F2A6A7ED4007A7BA9 /* index.css */; };
+		F81CDA232A6A7ED4007A7BA9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = F81CDA202A6A7ED4007A7BA9 /* index.html */; };
+		F81CDA242A6A7ED4007A7BA9 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = F81CDA212A6A7ED4007A7BA9 /* index.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F81CDA072A6A70AB007A7BA9 /* acobTimer.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acobTimer.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81CDA0A2A6A70AB007A7BA9 /* acobTimerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acobTimerView.h; sourceTree = "<group>"; };
 		F81CDA0C2A6A70AB007A7BA9 /* acobTimerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = acobTimerView.m; sourceTree = "<group>"; };
+		F81CDA1F2A6A7ED4007A7BA9 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		F81CDA202A6A7ED4007A7BA9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F81CDA212A6A7ED4007A7BA9 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,9 @@
 		F81CD9FD2A6A70AB007A7BA9 = {
 			isa = PBXGroup;
 			children = (
+				F81CDA1F2A6A7ED4007A7BA9 /* index.css */,
+				F81CDA202A6A7ED4007A7BA9 /* index.html */,
+				F81CDA212A6A7ED4007A7BA9 /* index.js */,
 				F81CDA092A6A70AB007A7BA9 /* acobTimer */,
 				F81CDA082A6A70AB007A7BA9 /* Products */,
 			);
@@ -122,6 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81CDA222A6A7ED4007A7BA9 /* index.css in Resources */,
+				F81CDA232A6A7ED4007A7BA9 /* index.html in Resources */,
+				F81CDA242A6A7ED4007A7BA9 /* index.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
